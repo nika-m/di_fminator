@@ -14,6 +14,7 @@ class DashboardController < ApplicationController
   end
 
   def sandbox
+    @tracks = []
   end
 
   def contact
