@@ -1,0 +1,25 @@
+// Place all the styles related to DiFm here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.track-list-item {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.track-artist {
+  padding-left: 10px;
+}
+
+.now-playing-badge {
+  margin-left: 5px;
+}
+
+#di_fm_header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr.with_padding {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  artist: Lorde
+  song: Royals
+  track: Lorde - Royals
+  channel: Russian Club Hits
+
+two:
+  id: 2
+  artist: Iggy Azelia
+  song: Fancy
+  track: Iggy Azelia - Fancy
+  channel: Russian Club Hits

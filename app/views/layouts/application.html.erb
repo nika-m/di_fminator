@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>DiFminator</title>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= csrf_meta_tags %>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <%= render 'shared/navbar' %>
+        
+        <div class='container'>
+             
+            <div class='row'>
+                <div class='jumbotron'>
+                <div class='text-center logo_text'>
+                    <div class='row'>
+                        <span class='side_one'>developer</span><span class='side_two'>chick</span>
+                    </div>
+                    <div class='row logo_russian'>
+                        Девушкий Разработчик
+                    </div>
+                </div>
+               </div>
+            </div>
+           
+            <%= render 'shared/flash_bar' %>
+
+            <div class='row'>
+                <%= yield %>
+            </div>
+
+        </div>
+
+    </body>
+
+    <script type='text/javascript'>
+        $(document).ready(function(){
+            new app.Dashboard.CreateViewController();
+        });
+    </script>
+</html>
+
+
+

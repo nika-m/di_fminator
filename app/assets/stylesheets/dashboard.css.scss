@@ -1,0 +1,156 @@
+// Place all the styles related to the Dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+
+//$background-color:  #ff2052;
+//$value-color:       #fff;
+//$icon-color:        gray;
+//$title-color:       rgba(255, 255, 255, 0.7);
+//$label-color:       rgba(255, 255, 255, 0.7);
+//$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// ----------------------------------------------------------------------------
+
+@font-face {
+  font-family: Days;
+  src: url(Days.otf) format("truetype");
+}
+
+html, body {
+  background: url(graph.png);
+}
+
+.jumbotron {
+   background-color: #e2e2e2;
+}
+
+.hello_user {
+  padding-right: 15px;
+}
+
+.content_container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.main_container {
+  padding-top: 45px;
+  padding-bottom: 25px;
+}
+
+.page_header {
+  padding-bottom: 25px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 0.95;
+}
+
+.page_header .side_one {
+  color: #645D69;
+  z-index: 900;
+}
+
+.page_header .side_two {
+  font-family: helvetica;
+  font-size: 52px;
+  color: #FF2043;
+  z-index: 900;
+  opacity: .75;
+}
+
+.icon-padding-right {
+  padding-right:5px;
+}
+
+.icon-padding-left {
+  padding-left:5px;
+}
+
+// ----------------------------------------------------------------------------
+// SITE LOGO
+// ----------------------------------------------------------------------------
+.logo_text {
+  font-family: helvetica;
+  font-size: 52px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 0.95;
+}
+
+.logo_text_med {
+  font-family: helvetica;
+  font-size: 36px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  line-height: 0.95;
+}
+
+.logo_russian {
+  color: transparent;
+  z-index: 100;
+  opacity: .25;
+  text-shadow: #fff 0 0 4px, #9E9E9B 0 0 20px; 
+}
+
+.side_one {
+  color: #645D69;
+  z-index: 900;
+  text-shadow: #fff 0 0 4px, #645D69 0 0 20px;
+}
+
+.side_two {
+  color: #FF2043;
+  z-index: 900;
+  opacity: .75;
+  text-shadow: #fff 0 0 4px, #645D69 0 0 20px;
+}
+
+// ----------------------------------------------------------------------------
+
+
+// ----------------------------------------------------------------------------
+// MENU ITEMS
+// ----------------------------------------------------------------------------
+.menu-item-text {
+  color: #FF2043;
+  opacity: .75;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: #fff 0 0 4px, #9E9E9B 0 0 20px;
+}
+
+.menu-item {
+  color: #FF2043;
+  opacity: .75;
+  text-shadow: #fff 0 0 4px, #645D69 0 0 20px;
+}
+
+.menu-item a:link, .menu-item a:visited, .menu-item a:hover, .menu-item a:active {
+  color: inherit;
+  outline: 0;
+  text-decoration: none;
+}
+
+.menu-item:focus, .menu-item:hover, .menu-item:active {
+  outline: 0;
+  //color: #428BCA;
+  color: #645D69;
+}
+
+
+// ----------------------------------------------------------------------------
+
+#about_me_list {
+  padding-top: 10px;
+}
+
+#about_me_list ul, #about_me_list li {
+  list-style: none;
+}
+
+

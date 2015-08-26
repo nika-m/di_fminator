@@ -1,0 +1,6 @@
+
+endpoints:
+  di_fm:
+    main: http://www.di.fm
+    channels: http://www.di.fm/channels
+  audio_addict: http://api.audioaddict.com/v1/di/track_history/channel/0000.jsonp?callback=_AudioAddict_TrackHistory_Channel
