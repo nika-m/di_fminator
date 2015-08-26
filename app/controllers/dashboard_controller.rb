@@ -14,7 +14,6 @@ class DashboardController < ApplicationController
   end
 
   def sandbox
-    @tracks = Track.order(created_at: :desc)
   end
 
   def contact
